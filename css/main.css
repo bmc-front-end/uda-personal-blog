@@ -1,0 +1,130 @@
+@import "fonts.css";
+@import "layouts.css";
+@import "forms.css";
+
+/* css variables */
+:root {
+  --bgColor1: #e2ece9ff;
+  --bgColor2: #bee1e6ff;
+  --bgColor3: #fad2e1ff;
+  --bgColor4: #fde2e4ff;
+  --bgColor5: #cddafdff;
+  --bgColor6: #dfe7fdff;
+  --bgGray: #f0efebff;
+
+  --radius: 15px;
+  --padding: 0.5rem;
+  --gridRowGap: 0.5rem;
+  --gridColumnGap: 0.5rem;
+
+  --title-color: #000;
+  --title-font: "Roboto", sans-serif;
+  --para-text: rgba(0, 0, 0, 1);
+  --text-font: "Mulish", sans-serif;
+  --reference-width: 19em;
+  --font-weight: 700;
+}
+
+/* building blocks and typography */
+html {
+  font-family: var(--text-font);
+  background-color: #fff;
+  /*font-size: 16px;*/
+}
+
+body {
+  padding: 1rem;
+  margin: 0;
+}
+
+h1.header {
+  font-family: var(--title-font);
+  display: block;
+  padding: 0 0 1rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+section,
+aside,
+article,
+div,
+img,
+header {
+  box-sizing: border-box;
+}
+
+article h2 {
+  font-size: calc(var(--reference-width) / 12);
+  font-family: var(--text-font);
+  color: var(--title-color);
+}
+
+article p {
+  font-family: var(--text-font);
+  color: var(--para-text);
+  font-size: calc(var(--reference-width) / 18);
+  line-height: 1.5em;
+}
+
+.date {
+  font-size: calc(var(--reference-width) / 18);
+  font-family: var(--title-font);
+  font-weight: var(--font-weight);
+}
+
+article a {
+  text-decoration: none;
+  color: var(--bg);
+  font-family: var(--title-font);
+  font-size: calc(var(--reference-width) / 20);
+  font-weight: var(--font-weight);
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+  /*color: red;*/
+}
+
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+
+u {
+  text-decoration: #000 wavy underline;
+}
+
+.social-media-links {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-links li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+.social-media-links img {
+  width: 40px;
+  height: 40px;
+}

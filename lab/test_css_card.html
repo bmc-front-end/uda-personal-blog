@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap');
+
+:root{
+/*--bg: #001D66;*/
+--title-color: #00257F;
+--title-font: 'Roboto', sans-serif;
+--para-text: rgba(0,0,0,1);
+--text-font: 'Open Sans', sans-serif;
+--reference-width: 19em;
+--font-weight: 700;
+}
+
+section,
+aside,
+article,
+div,
+img{
+	box-sizing: border-box;
+}
+article img{
+	width: 100%;
+}
+article{
+	width: var(--reference-width);
+	background: #fff;
+	padding: 20px;
+}
+article h3{
+	font-size: calc(var(--reference-width)/10);
+	font-family: var(--title-font);
+	color: var(--title-color);
+}
+article p{
+	font-family: var(--text-font);
+	color: var(--para-text);
+	font-size: calc(var(--reference-width)/20);
+	line-height: 1.6em;
+}
+
+.date{
+	font-size: calc(var(--reference-width)/20);
+	font-family: var(--title-font);
+	font-weight: var(--font-weight);
+}
+
+h1{
+	color: #fff;
+}
+
+article a{
+	text-decoration: none;
+	color: var(--bg);
+	font-family: var(--title-font);
+	font-size: calc(var(--reference-width)/20);
+	font-weight: var(--font-weight);
+}
+
+article a:hover{
+	text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+	<article>
+		<h3>Natural beauty. which is grateful in Bangladesh.</h3>
+		<img src="https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?cs=srgb&dl=agriculture-apple-blur-257840.jpg&fm=jpg" alt="">
+		<p class="date">12th December, 2018</p>
+		<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+		<a href="">Read More</a>
+	</article>
+
+
+</body>
+</html>

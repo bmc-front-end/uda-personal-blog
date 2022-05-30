@@ -1,0 +1,32 @@
+/* styling for forms */
+h3.newsletter {
+    font-size: calc(var(--reference-width)/12);
+    font-family: var(--title-font);
+    color: var(--title-color);
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    margin: 0.25rem;
+}
+
+form{
+	font-size: 1.15rem;
+	/*display: flex;*/
+	/*align-items: center;*/
+}
+
+p.form{
+	display: inline;
+	font-weight: bold;
+	margin-right: 2rem;
+	font-size: calc(var(--reference-width)/15);
+}
+
+
+input, button[type=submit]{
+	border: 2px solid black;
+	border-radius: var(--radius);
+	font-size: 1.15rem;
+	margin:0.25rem;
+	padding: 0.25rem;
+}
